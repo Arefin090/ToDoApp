@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ToDoApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary color used for app bar, buttons, etc. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- Secondary color used for the dashboard and backgrounds. -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <!-- Text color for primary text. -->
+        <item name="android:textColorPrimary">@color/colorTextPrimary</item>
+        <!-- Text color for secondary text. -->
+        <item name="android:textColorSecondary">@color/colorTextSecondary</item>
+        <!-- Error color for error messages and input errors. -->
+        <item name="colorError">@color/colorError</item>
+        <!-- Background color for the app. -->
+        <item name="android:colorBackground">@color/backgroundColor</item>
+        <!-- Surface color for cards and other surfaces. -->
+        <item name="colorSurface">@color/white</item>
+        <!-- Accent color for interactive elements like buttons. -->
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Main theme to apply the colors. -->
+    <style name="Theme.ToDoApp" parent="Base.Theme.ToDoApp" />
+</resources>

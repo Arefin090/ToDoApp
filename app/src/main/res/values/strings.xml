@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ToDoApp</string>
+    <string name="daily_tasks">Daily Tasks</string>
+    <string name="weekly_tasks">Weekly Tasks</string>
+    <string name="monthly_tasks">Monthly Tasks</string>
+    <string name="navigation_drawer_open">Open drawer</string>
+    <string name="navigation_drawer_close">Close drawer</string>
+
+
+</resources>

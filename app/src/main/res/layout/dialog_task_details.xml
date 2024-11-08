@@ -1,0 +1,130 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_background"
+    android:padding="16dp"
+    android:elevation="8dp"
+    android:clipToPadding="false">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/dialogTaskTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Task Title"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"/>
+
+    <!-- Task Description -->
+    <TextView
+        android:id="@+id/dialogTaskDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Task Description"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"/>
+
+    <!-- Priority with Icon -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_important" />
+
+        <TextView
+            android:id="@+id/dialogTaskPriority"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Priority: Medium"
+            android:layout_marginStart="8dp"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+    </LinearLayout>
+
+    <!-- Deadline with Icon -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_important" />
+
+        <TextView
+            android:id="@+id/dialogTaskDeadline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deadline: No Deadline"
+            android:layout_marginStart="8dp"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+    </LinearLayout>
+
+    <!-- Completed Checkbox with Modern Style -->
+    <CheckBox
+        android:id="@+id/dialogTaskCompletedCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mark as Completed"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:buttonTint="@color/colorPrimary"/>
+
+    <!-- Buttons Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="end"
+        android:gravity="end"
+        android:layout_marginTop="24dp"
+        android:weightSum="3">
+
+        <!-- Update Task Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/updateTaskButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:layout_weight="1"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:icon="@drawable/ic_edit"
+            android:textColor="@color/colorPrimary"/>
+
+        <!-- Delete Task Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/deleteTaskButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:layout_weight="1"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:icon="@drawable/ic_delete"
+            android:textColor="@android:color/holo_red_dark"/>
+
+        <!-- Close Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/closeButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Close"
+            android:layout_weight="1"
+            style="@style/Widget.MaterialComponents.Button.TextButton"/>
+    </LinearLayout>
+</LinearLayout>

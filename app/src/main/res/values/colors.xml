@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Color for buttons, toolbars, etc. -->
+    <color name="colorPrimary">#9395D3</color>
+
+    <!-- Secondary Color for background (dashboard, etc.) -->
+    <color name="colorSecondary">#D6D7EF</color>
+
+    <!-- Colors for text and other UI elements -->
+    <color name="colorTextPrimary">#FF000000</color> <!-- Black for primary text -->
+    <color name="colorTextSecondary">#FFFFFFFF</color> <!-- White for secondary text -->
+
+    <!-- Error color for error messages and inputs -->
+    <color name="colorError">#B00020</color> <!-- Red for errors -->
+
+    <!-- Background and surface colors -->
+    <color name="backgroundColor">#FFFFFF</color> <!-- White background for most screens -->
+    <color name="surfaceColor">#F5F5F5</color> <!-- Light gray for surfaces like cards -->
+
+    <!-- Optional: Accent colors for subtle highlights (e.g., borders, icons) -->
+    <color name="colorAccent">#607D8B</color> <!-- Light blue-gray -->
+
+    <!-- Colors for disabled buttons or inactive states -->
+    <color name="colorDisabled">#C0C0C0</color> <!-- Gray for disabled elements -->
+
+    <!-- Black and white -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="green">#88D66C</color>
+    <color name="orange">#E6C767</color>
+    <color name="red">#F87A53</color>
+
+</resources>

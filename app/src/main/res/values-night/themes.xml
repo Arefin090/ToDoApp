@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for dark mode. -->
+    <style name="Base.Theme.ToDoApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Darker primary and secondary colors. -->
+        <item name="colorPrimary">#7578B3</item> <!-- Slightly darker primary color -->
+        <item name="colorSecondary">#B0B1CE</item> <!-- Darker background shade -->
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/black</item>
+        <item name="colorError">#CF6679</item> <!-- Light red for dark mode -->
+        <item name="android:colorBackground">#121212</item> <!-- Dark background -->
+        <item name="colorSurface">@color/black</item> <!-- Dark surface -->
+        <item name="colorAccent">#607D8B</item> <!-- Light blue-gray -->
+    </style>
+
+    <style name="Theme.ToDoApp" parent="Base.Theme.ToDoApp" />
+</resources>
